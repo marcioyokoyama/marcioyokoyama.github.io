@@ -1,0 +1,246 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+  font-family: 'Roboto-Draft';
+  src: url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Light.eot'); /* IE9 Compat Modes */
+  src: url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Light.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Light.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Light.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Light.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+@font-face {
+  font-family: 'Roboto-Draft-Bold';
+  src: url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Bold.eot'); /* IE9 Compat Modes */
+  src: url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+       url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('/portal/page/portal/home/arquivos/fontes/RobotoDraft-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body {background-color:#FFF;font-family:Arial, Helvetica,sans-serif;text-align:center;margin:0;padding:0;border:0;color:#000;font-size:73.5%;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased;  -moz-osx-font-smoothing:grayscale;font-smooth:always}
+#corpo_principal,.padrao,#acessibilidade {width:1000px; margin: 0.1em auto;text-align:left;position:relative;background-color:#FFF;}
+#fundo,#corpo_principal{background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/bkg_body.jpg); background-repeat:no-repeat; background-position:center 69px;padding:0;border:0;background-color:#FFF;}
+
+/*base*/
+table{border-collapse:collapse;font-size:1em;}
+/*th,td{font-size:1em;}*/
+th{background-color:#EEEEEE;}
+img {border:0;}
+a:link, a:active {color:#0E64C1;text-decoration:none;}
+a:hover{color:#0E64C1;text-decoration:underline;}
+a:visited {color:#1250B5;}
+h1{color:#145692}
+h2{color: #000;font-size: 1.4em;letter-spacing: 0em;margin: 20px 3px 5px 0;line-height: 1.2em;text-align: left;}
+h3{color: #4F4F4F;font-size: 1.3em;letter-spacing: -0.05em;margin: 15px 3px 5px 0;line-height: 1.2em;text-align: left;}
+h4{color: #145692;font-size: 1.2em;letter-spacing: -0.02em;margin: 15px 3px 5px 0;line-height: 1.2em;text-align: left;}
+h5{color: #000;font-size: 1.1em;letter-spacing: -0.02em;margin: 15px 3px 5px 0;line-height: 1.2em;text-align: left;}
+h6{color: #4F4F4F;font-size: 1.0em;letter-spacing: -0.02em;margin: 15px 3px 5px 0;line-height: 1.2em;text-align: left;}
+p,span,a{line-height:150%;}
+div.alerta {border:1px solid #CCC;background-color:#EAEAEA;padding:10px 10px 10px 42px;	background-image:URL(/portal/page/portal/home/arquivos/imagens/ico_atencao.png);background-repeat:no-repeat;background-position:15px 8px;font-size:11px;text-align:left;}
+.clear{clear:both;height:0.01em;}
+/* FIM base */
+
+/*oracle portal*/
+.OraGlobalButtonText,.OraBody,.OraLinkText,.OraInlineInfoText{font-size:1em !important;}
+
+/* Template*/
+#acessibilidade li, #ferramentas li{ list-style:none; display:inline;padding:3px;font-size:1.2em}
+#acessibilidade li a{color:#3d3d3d;}
+#acessibilidade li a:hover{text-decoration:underline;}
+#acessibilidade ul{padding:0;}
+
+
+#cabecalho{background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/bkg_body.jpg);background-repeat:no-repeat;background-color:#FFF;background-position:center 69px;padding-bottom:25px}
+#cabecalho form.frmbusca{display:inline;}
+#cabecalho form span.none{display:none}
+#cabecalho #fixedbar {background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/bkg_menufixed.png);background-repeat:repeat-x;background-position:bottom;display:none;position:fixed;top:0;width:100%;height:35px; left:0;padding:5px 90px 10px 10px; width:100%;z-index:10000;}
+#cabecalho #fixedbar .busca{padding-top:2px;}
+#cabecalho #fixedbar .logo{float:left;background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/logo_mpsp_barra.jpg);background-repeat:no-repeat;background-position:0 0;}
+#cabecalho #fixedbar .logo img{width:220px;height:34px;}
+
+#acessibilidade,#cabecalho #ferramentas{border:0; padding:0;font-size:0.85em}
+#cabecalho #ferramentas {position:absolute; top:-37px; right:0; font-weight:bold;}
+
+#cabecalho #ferramentas li a {color:#3d3d3d;}
+#cabecalho #logo_busca {clear:both;padding-top:10px;}
+#cabecalho .logo{float:left; background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/logo_mpsp.jpg);background-repeat:no-repeat;background-position:0 0;}
+#cabecalho .logo img{width:300px;height:54px;}
+
+#cabecalho .busca{float:right;padding-top:12px;}
+#cabecalho .busca a{padding:0 1px;}
+#cabecalho .busca .txtbusca { background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/bkg_busca.jpg); background-color:transparent; border:0; background-repeat:no-repeat; padding:8px; margin:0 0 0 9px;vertical-align:top;color:#3D3D3D; font-weight:bold;}
+#cabecalho .busca .btnlupa { background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/ico_lupa.gif); background-color:transparent; border:0; background-repeat:no-repeat; padding:8px; margin:0; background-position:center center;vertical-align:top;}
+#cabecalho .busca .rs{display:inline}
+#cabecalho #nome_procurador{color:#FFF; text-align:right; height:65px;clear:both;padding-top:45px; font-family:Roboto-Draft,Arial,Helvetica;}
+#cabecalho #nome_procurador p{margin:0; padding:0;font-size:1.3em;}
+#cabecalho #nome_procurador .nome{font-family:Roboto-Draft-Bold,Arial,Helvetica;font-size:1.41em;}
+
+#corpo {}
+
+.nome_pagina{margin:8px 0 0 0;}
+.nome_pagina h1{font-family:Roboto-Draft,Arial,Helvetica; font-weight:normal;font-size:2.4em;color:#333;border-bottom:1px solid #CCC;padding:2px 0 8px 0;margin:0 0 5px 0;}
+.nome_pagina p.paginainicial{padding:2px 0 0 20px;margin:0; background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/ico_paginainicial.png);background-repeat:no-repeat;background-position:0 0;}
+a.btnvoltar {background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/btnvoltar.png); background-repeat:no-repeat; background-position:0 0; padding:2px 0 5px 22px;color:#333;font-weight:bold}
+
+.cabecalho_regiao{font-family:Roboto-Draft,Arial,Helvetica;background-color:#FFF;padding:7px 7px 7px 20px;font-size:1.2em;font-weight:bold;text-transform:uppercase;color:#4F4F4F;margin-top:5px;border-bottom:2px solid #EEEEEE;background:url(/portal/page/portal/home/arquivos/imagens/v2016/bullet_home_item.gif);background-repeat:no-repeat;background-position:6px 8px;}
+
+#btn_voltar{padding:5px 10px 5px 10px;border-top:1px dotted #EEEEEE;margin-top:15px;}
+
+#rodape{position:relative;color:#565656; font-size:1em; margin-bottom:25px;border:1px #FFF solid; text-align:center;bottom:0}
+#rodape #bkgrodape{background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/bkg_rodape.jpg); background-repeat:repeat-x;position:absolute;height:174px;}
+#rodape p,#rodape address {margin:3px; padding:0; text-decoration:none;}
+#rodape p.destaque  {font-weight:bold; font-size:1.20em;}
+#rodape #assinatura {text-align:left;background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/logo_mpsp_rodape.jpg);background-position:210px 0px;background-repeat:no-repeat;padding-left:470px;margin-top:174px;}
+/* FIM Template */	
+	
+/* Editor */
+.conteudo_editor p{padding:2px 0;margin:0;}
+.conteudo_editor h1{color:#145692;font-size: 1.9em;letter-spacing: -0.05em;margin:20px 3px 3px 0;line-height: 1.2em;text-align: left; text-transform:none; border:0; padding:0; background:none;}
+.conteudo_editor a{font-weight:bold;}
+.conteudo_editor a:link{color:#0E64C1;;text-decoration: none;}
+.conteudo_editor a:visited{color:#1250B5;text-decoration: none;}
+.conteudo_editor a:active{color:#0E64C1;;text-decoration: none;}
+.conteudo_editor a:hover{text-decoration:underline;color:#0E64C1}
+.conteudo_editor p.tam10{color:#000;font-size:0.9em;}
+.conteudo_editor p.tam14{color:#000;font-size:1.3em;}
+.conteudo_editor h1.titulo_1a{background: url("/portal/page/portal/home/arquivos/imagens/v2016/bullet_home_item.gif") no-repeat scroll 6px 8px transparent;border-bottom: 2px solid #EEEEEE;color: #4F4F4F;font-size: 1.5em;font-weight: bold;margin-top: 5px;padding: 4px 7px 7px 20px;font-family:Roboto-Draft;}
+.conteudo_editor h1.titulo_1b{color: #000;font-size: 1.4em;font-weight: bold;margin-top: 5px;padding: 2px; letter-spacing:-0.01em}
+.conteudo_editor p.destaque1{color:#4f4f4f;font-weight:bold;}
+.conteudo_editor p.destaque2{color:#4f4f4f;background-color:#EEEEEE;margin:5px 0;padding:5px 15px;}
+.conteudo_editor p.atencao{border:1px solid #CCC;background-color:#EAEAEA;padding:10px 10px 10px 42px;background-image:URL(/portal/page/portal/home/arquivos/imagens/ico_atencao.png);background-repeat:no-repeat;background-position:15px 8px;font-size:1em;text-align:left;}
+.conteudo_editor span.destaque1{color:#666;font-weight:bold;}
+.conteudo_editor span.destaque2{color:#0E3F6B;font-weight:bold;}
+.conteudo_editor blockquote{padding:10px 10px 10px 42px;font-style:italic;margin:5px;background:URL(/portal/page/portal/home/arquivos/imagens/ico_citation.png) no-repeat scroll 6px 8px transparent;border:1px dotted #CCC;}
+.conteudo_editor hr{border:1px dotted #888;clear:both;}
+.conteudo_editor ul,ol{margin:5px 0 0 25px;padding:3px;}
+.conteudo_editor li{margin:5px;}
+.conteudo_editor table{font-size:1em;border-color:#CCC;border-collapse:collapse;}
+.conteudo_editor table caption{font-size:1.2em;font-weight:bold;margin:10px;}
+.conteudo_editor td{border-color:#CCC;font-size:12px;padding:3px;}
+.conteudo_editor table p{padding:3px;margin:0;}
+.conteudo_editor th{background-color:#EEE;font-weight:bold;border-color:#ccc;padding:3px;}
+.conteudo_editor img{margin:5px;}
+/* FIM Editor */
+
+/*formul�rios*/
+form{padding:0;margin:0;font-size:1.4em;}
+form fieldset{border:1px solid #CCC;color:#333;margin:10px 0px;padding:15px;}
+form legend{color:#333;font-weight:bold;}
+form input,textarea{border:1px solid #999;background-color:#EAEAEA;padding:0.2em;}
+form .button{border:1px solid #4f4f4f;background-color:#EAEAEA;color:#333;font-weight:bold;padding:0.2em 2em;border-bottom: 2px solid #4f4f4f;border-right:2px solid #4f4f4f;margin:5px 5px 5px 2px;}
+form select{border:1px solid #999;background-color:#EAEAEA;padding:0.2em;}
+form label, form .labellinha,form .labelcoluna{color:#333;}
+form label.coluna,form .labelcoluna{display:block;width:250px;border-bottom:1px dotted #CCC;float:left;margin:0 8px 0 0;}
+form label.linha,form .labellinha{display:block;padding:0;margin:0;}
+form div.formlinha{clear:both; padding:2px;}
+form div.formcoluna{float:left;padding:5px 10px 5px 5px;}
+form .obrigatorio{color:#036;font-weight:bold;}
+form .formaviso{border:1px solid #EAEAEA;padding:10px;border-left:5px solid #036;font-style:italic;color:#666;font-size:0.9em}
+form input:focus,form select:focus,form textarea:focus{background-color:#D3D3D3}
+
+#ferramentas{margin:0;padding:0;position:absolute; top:-37px; right:0; font-weight:bold;}
+#ferramentas .intranet{display:inline-block;font-size:1.2em; background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/ico_intranet.png);background-repeat:no-repeat;background-position:4px 4px;padding:3px 3px 3px 25px;margin:3px 15px 0 0;vertical-align:middle;}
+#ferramentas .dropbtn {background-color:#FFF;cursor:pointer;margin:0;width:30px;display:inline-block;}
+#ferramentas .dropbtn:focus,#ferramentas .dropbtn:visited{background-color:#EEE;text-decoration:none;border-bottom:0;z-index:1001}
+#ferramentas .dropdown{position:relative;display:inline-block;}
+#ferramentas .dropdown-content{padding:0px 10px 10px 60px;z-index:1000;right:0;display:none;position:absolute;background-color:#f9f9f9;min-width:180px;overflow:auto;box-shadow:0px 8px 16px 0px rgba(0,0,0,0.2);border:1px solid #CCC; background:url(/portal/page/portal/home/arquivos/imagens/v2016/img_usuario.png) no-repeat 10px 10px #FFF;}
+#ferramentas .dropdown-content a{padding:3px 5px;text-decoration:none;display:block;font-weight:normal;font-size:1.2em;color:#666;margin:0px;}
+#ferramentas p{font-size:1.2em;}
+#ferramentas .show{display:block;}
+#ferramentas a{color:#333;font-weight:bold;margin:5px;padding:5px;border:1px solid #FFF;text-decoration:none;display:inline;}
+#ferramentas a:hover{background-color:#EAEAEA;border:1px solid #CCC}
+#ferramentas .usuario {width:30px;height:20px;color:#666;display:inline;font-size:1.2em; font-weight:normal;padding:0 5px 0 20px; background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/ico_usuarioplus.png);background-repeat:no-repeat;background-position:center center;}
+#ferramentas #pc {color:#666;display:inline-block;font-size:1.2em;padding:5px 0 0 0;margin:3px 5px 0 0}
+#ferramentas #pc span.icopc {display:inline-block;font-size:1.2em;font-weight:normal;background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/pc.png);background-repeat:no-repeat;background-position:center center;width:20px;height:20px;vertical-align:middle;margin-right:5px;}
+
+/*menu horizontal*/
+#menu_horizontal{background-color:transparent !important; height:40px !important;border:0 !important; margin-bottom:20px;}
+
+#menu_direito div.div_menu a{color:color:#213C69 !important;}
+#menu_direito .dtree {color:#333 !important;}
+#menu_direito .dtree a {color:#213C69 !important;}
+#menu_direito .dtree a.nodeSel {background-color: #EAEAEA  !important;color:#333 !important;border-left:5px solid #213C69 !important;}
+
+/*home*/
+#eventos h1,#acesse h1,#destaque h1,#video h1, #noticias h1, h1.titulo-home{color:#A10B00;text-transform:uppercase;border-bottom:1px solid #CCC;font-size:1.2em;font-family:'Roboto-Draft',Arial,Helvetica;} 
+
+#noticias h1{border-bottom:0;} 
+#noticias{margin-left:20px;} 
+.mais{position:absolute;top:0;right:0;text-align:right;margin:0;text-align:right;}
+.anteriores{position:absolute;top:-35px;right:0;text-align:right;margin:0;text-align:right;}
+#lista_noticias,#eventos,#video{position:relative;}
+#home_sombra{background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/bkg_home_sombra.png); background-repeat:no-repeat; background-position:top center;padding:10px;margin-top:10px}
+.home_sombra{background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/bkg_home_sombra.png); background-repeat:no-repeat; background-position:top center;padding:10px;margin-top:10px}
+/* box */
+.box_home{background-color:#EAEAEA;padding:8px;position:relative;margin:4px 6px 0 0;background-repeat:no-repeat;background-position:9px center;}
+.box_home h1{text-transform:uppercase;margin:0;padding:0;font-size:0.85em;}
+.box_home h1 a{color:#666;padding:9px 9px 9px 50px;display:block;}
+/* fim box */
+
+/*banners*/
+.homebanner{margin:6px 0 3px 0;}
+
+/* Coluna noticias - Portlet coluna_noticias_teste */
+#lista_noticias {line-height:1.3em;margin:33px 10px 15px 10px;}
+#lista_noticias p{line-height:140%;margin:2px 0 0 0;padding:0;}
+#lista_noticias ul li h2{margin:12px 0 0 0;font-size:1.2em}
+#lista_noticias ul li h2 a{margin:0;padding:0;font-weight:bold;text-align:left;color:#333;line-height:128%;letter-spacing:-0.01em;}
+#lista_noticias ul{list-style-type:none;margin:0;padding:0;}
+#lista_noticias ul li {padding:0;text-align:left;}
+#lista_noticias ul li a{text-decoration:none;color:#333;font-weight:normal;}
+#lista_noticias div a.anteriores{text-decoration:none;font-weight:bold;text-align:right;display:block;padding:3px;margin-top:5px;}
+#lista_noticias ul li a:hover {text-decoration:underline;}
+#corpo_noticia{text-align:justify}
+#corpo_noticia h1{text-align:left}
+#corpo_noticia .descricao{color:#333;font-weight:bold;font-size:1.3em;margin-bottom:15px}
+#corpo_noticia p{margin:4px 0}
+#corpo_noticia .data_noticia{color:#555}
+
+/* eventos */
+#eventos{margin:10px 25px 30px 20px;}
+#eventos ul{padding:0;margin:10px 0 0 0;}
+#eventos li a{color:#333;}
+#eventos li a:hover{text-decoration:underline;}
+#eventos li{list-style:none;margin:0 0 5px 0;padding:0;width:202px;float:left;text-align:left;line-height:135%;}
+#eventos li.segundo{margin-left:18px;}
+#eventos li p{margin:0;padding:0;line-height:125%;}
+#eventos li div.foto{width:202px;height:125px;overflow:hidden;margin-bottom:10px;border:1px solid #EAEAEA;}
+#eventos p.mais{margin:0;}
+
+/* video */ 
+#video {padding-top:0px;padding-bottom:15px;border:0;margin:0px 45px 0px 25px;}
+#video div.imagem{background-repeat:no-repeat;width:187px;height:128px;background-position:top center;background-color:#EEE;margin:10px 0;border:1px solid #EAEAEA;}
+#video div.play{margin:45px 70px;} 
+#video h2, #video p{margin:0;padding:0;line-height:140%;letter-spacing:-0.01em;}
+#video h2 a{font-weight:bold;margin-bottom:3px;font-size:0.85em;color:#333;}
+#video p.descricao a{font-weight:normal;color:#333;}
+#video p.mais{padding:0px;text-align:right;}
+/* acesse */
+#acesse {margin:0px 45px 0px 25px}
+#acesse ul{padding:0;margin:0;}
+#acesse li{background-image:url(/portal/page/portal/home/arquivos/imagens/bullet_home_item.gif);background-repeat:no-repeat;background-position:5px 15px;border-bottom:1px dotted #888;list-style-type:none;padding:0;margin:0;}
+#acesse li a{color:#333;display:block;padding:8px 0 8px 20px;}
+
+/*links */
+#destaque {margin:0 30px 0 20px;}
+#area_destaques{width:328px;margin:10px 0;height:202px;overflow:auto;position:relative;background-color:#EEE;padding:0px;}
+#area_destaques ul{padding:4px;margin:0;}
+#area_destaques li{background-image:url(/portal/page/portal/home/arquivos/imagens/bullet_home_item.gif);background-repeat:no-repeat;background-position:7px 13px;list-style-type:none;padding:0;margin:0;}
+#area_destaques li a{color:#333;display:block;padding:6px 0 6px 20px;}
+.scrollgeneric{line-height:1px;font-size:1px;position: absolute;top:0;left:0;}
+.vscrollerbase{width:10px;background-color:#EEE;}
+.vscrollerbar{width:10px;background-color:#A10B00;}
+.hscrollerbase{height:5px;background-color:#EEE;}
+.hscrollerbar{height:10px;background-color:#A10B00;}
+
+/*portlet 2016aviso - 2016 Aviso*/
+#tip {width:214px; position:absolute; right:-5px;top:-19px;text-align:left;z-index:2000;display:none;font-size:1.2em;z-index:300;font-size:1em;line-height:1.3em;}
+#tip p{padding:0;margin:0;}
+#tip #tip01 {background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/tip_01.png); background-repeat:no-repeat;	background-position:top;padding-top:39px}
+#tip #tip02 {background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/tip_02.png); background-repeat:repeat-y;	background-position:top;padding: 5px 35px 10px 10px}
+#tip #tip02 h1 {font-size:1.5em;line-height:1.55em}
+#tip #tip03 {background-image:url(/portal/page/portal/home/arquivos/imagens/v2016/tip_03.png); background-repeat:no-repeat;	background-position:top;padding:5px}
+#tip #tipfechar {position:absolute;right:15px}
