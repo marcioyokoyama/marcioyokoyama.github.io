@@ -1,0 +1,62 @@
+@charset "utf-8";
+/* CSS Document */
+
+#menu_direito{
+font-size:11px;
+font-family: Arial, Helvetica;
+margin-right:10px;
+margin-left:5px;
+}
+#menu_direito .menu_lateral_pesquisar{
+background-color:#F5F5F5;
+padding:5px;
+margin:5px 0px 15px 0px;
+background-image:URL(/portal/page/portal/home/arquivos/imagens/btn_buscar.gif);
+background-repeat:no-repeat;
+background-position:95% 0px;
+display:none;
+}
+#menu_direito .menu_lateral_pesquisar a{
+color:#464646;
+font-weight:bold;
+text-decoration:none;
+}
+#menu_direito div.div_menu{
+margin:10px;
+*height:0px;height:20px;
+}
+#menu_direito div.div_menu a{
+color:#464646;
+}
+#menu_direito .dtree {
+color: #000;
+white-space: nowrap;
+font-family: Arial, Helvetica;
+}
+#menu_direito .dtree img {
+	border: 0px;
+	vertical-align: middle;
+}
+#menu_direito .dtree a {
+        font-size: 11px;
+    	color: #A21D1D;
+	text-decoration: none;
+font-family: Arial, Helvetica;
+font-weight:bold;
+}
+#menu_direito .dtree a.node, .dtree a.nodeSel {
+	white-space: nowrap;
+	padding: 1px 2px 1px 2px;
+}
+#menu_direito .dtree a.node:hover, .dtree a.nodeSel:hover {
+	text-decoration: underline;
+}
+#menu_direito .dtree a.nodeSel {
+	background-color: #F5F5F5;
+        color: #000;
+border-left:5px solid #a21D1D;
+padding:4px 4px 2px 8px;
+}
+#menu_direito .dtree .clip {
+	overflow: hidden;
+}
