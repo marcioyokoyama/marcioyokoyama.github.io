@@ -1,11 +1,48 @@
-<!DOCTYPE html>
-<html>
-<head>
-<meta charset="UTF-8"/>
-<title>Document</title>
-</head>
-<body>
-<!-- Conteúdo -->
-Conteúdo
-</body>
-</html>
+<script type="text/javascript">
+
+
+    function resizeRodape(){
+    if($("body").width()>1000){
+        $("#bkgrodape").css({'width':($("body").width()-1+'px'),'left':(-($("body").width()-1000)/2)});
+    }}
+    
+    
+    $(window).resize(function(){resizeRodape()});
+    
+    $(document).ready(function(){
+    
+        resizeRodape();	
+            
+    $("#ferramentas .dropbtn").bind("click keypress",function(e)
+    {
+    if(e.keyCode != 9){
+    if($("#menuFerramentas").css('display')=='none'){
+    $("#menuFerramentas").slideDown(300);
+    $("#ferramentas .dropbtn").attr("aria-expanded", "true");
+    return false;
+    }else{
+    $("#menuFerramentas").hide(300);
+    $("#ferramentas .dropbtn").attr("aria-expanded", "false");
+    return false;
+    }
+    }
+        })
+    
+        $(document).bind("click", function()
+        {
+            $("#menuFerramentas").hide();
+        });
+     
+      $(window).bind('scroll',function() {
+        var scrolltop = $(this).scrollTop();
+    
+        if(scrolltop >= 240) {
+          $('#fixedbar').fadeIn(200);
+        }
+        else if(scrolltop <= 240) {
+          $('#fixedbar').fadeOut(200);
+        }
+      });
+    
+    });
+    </script>
